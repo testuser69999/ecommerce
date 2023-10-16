@@ -1,0 +1,97 @@
+\/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Stylish Navigation Bar */
+  nav {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    padding: 0 20px;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  /* Amazing Section Headings */
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+    text-shadow: 2px 2px 4px #aaa;
+  }
+  
+  /* Grid layout for Featured, Men's and Women's sections */
+  #featured, #men, #women {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 16px;
+  }
+  
+  /* Smaller Product Images and Card Styling */
+  .product {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 15px;  /* Rounded corners */
+    padding: 16px;
+  }
+  
+  .product img {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for Boxes around each section */
+  .box {
+    border: 2px solid #ccc;
+    border-radius: 15px; /* Rounded corners */
+    margin: 20px;
+    padding: 16px;
+  }
+  
+  /* Newsletter form styling */
+  #newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  #newsletter button {
+    padding: 10px;
+    background-color: #ff416c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
