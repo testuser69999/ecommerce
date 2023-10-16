@@ -41,3 +41,51 @@ select {
 }
 
 /* Add more CSS styles to enhance the appearance and functionality */
+
+/* Improved Body Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+}
+
+/* Improved Header Style */
+header {
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/* Improved Filter Menu Style */
+.filter-menu {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+/* Improved Product List Style */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform .2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
